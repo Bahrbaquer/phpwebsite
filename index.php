@@ -7,8 +7,15 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <?php 
-        echo "header.html";
-    ?>
+    
+    <?php include 'header.html';  ?>
+    
+    <section class=banner>
+        <h3>Page Content</h3>
+
+    </section>
+
+    <?php include 'footer.html'; ?>
+
 </body>
 </html>
